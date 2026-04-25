@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, follow">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#4B6B5B">
+  <title>Seite nicht gefunden – Felix Kempf</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .error-wrap {
+      min-height: calc(100vh - var(--nav-h) - 6rem);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem var(--pad-x);
+      text-align: center;
+    }
+    .error-code {
+      font-family: var(--serif);
+      font-size: clamp(5rem, 15vw, 10rem);
+      font-weight: 500;
+      line-height: 1;
+      color: var(--border);
+      margin-bottom: 1.5rem;
+    }
+    .error-msg {
+      font-size: 1.125rem;
+      color: var(--text-light);
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="nav-logo" aria-label="Felix Kempf – Startseite">FK</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="error-wrap">
+      <div>
+        <p class="error-code" aria-hidden="true">404</p>
+        <p class="error-msg">Diese Seite wurde nicht gefunden.</p>
+        <a href="/" class="link-arrow">Zur Startseite <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Felix Kempf</p>
+      <nav class="footer-nav" aria-label="Rechtliches">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
